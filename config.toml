@@ -18,8 +18,8 @@ theme = "mainroad"
   opengraph = true
   twitter_cards = false
   readmore = false # Show "Read more" button in list if true
-  authorbox = true
-  pager = true
+  authorbox = false
+  pager = true # 翻页键
   post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.sidebar]

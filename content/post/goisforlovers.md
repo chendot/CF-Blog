@@ -9,7 +9,7 @@ tags:
   - "themes"
   - "development"
 categories:
-  - "IT"
+  - "转载"
 ---
 
 Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for

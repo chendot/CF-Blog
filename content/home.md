@@ -1,7 +1,6 @@
 ---
 linktitle: 时光荏苒
-authorbox: true
-sidebar: false
+authorbox: false
 weight: 1
 sidebar: true
 menu: main

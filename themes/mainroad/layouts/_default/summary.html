@@ -20,7 +20,11 @@
 		{{- end }}
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		{{ .Summary }}
+		{{- if .Params.description }} 
+			{{ .Params.description }} 
+		{{- else }}
+			{{ .Summary }}
+		{{- end }}
 	</div>
 	{{- if .Site.Params.readmore }}
 	{{- if .Truncated }}
