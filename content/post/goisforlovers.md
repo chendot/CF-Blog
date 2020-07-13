@@ -1,13 +1,10 @@
 ---
 title: "(Hu)go Template Primer"
 date: 2014-04-02
-thumbnail: "img/DSC05466.JPG"
+thumbnail: "img/hugo-logo-wide.svg"
 tags:
-  - "go"
-  - "golang"
-  - "templates"
-  - "themes"
-  - "development"
+  - "IT"
+  - Hugo
 categories:
   - "转载"
 ---

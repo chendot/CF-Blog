@@ -1,0 +1,32 @@
+selector1{
+    margin:10px 20px 30px 40px;
+}
+   
+selector2{ 
+  margin:10px 20px;
+}
+   
+selector3{ 
+  margin:10px;
+}
+   
+selector4{ 
+  margin-top:10px; 
+  margin-right:20px; 
+  margin-bottom:30px; 
+  margin-left:40px;
+}
+
+#text a:hover{
+   background-color:#ff0000;
+   display:inline;
+}
+
+li a:hover {
+    background-color:rgb(14, 8, 8); 
+    display:block;
+}
+
+.list::after{ content:"hello";
+}
+

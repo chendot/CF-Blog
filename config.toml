@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "CF 的个人博客"
+#title = "CF 的博客"
 #languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 paginate = "10" # Number of posts per page
@@ -13,21 +13,36 @@ theme = "mainroad"
   avatar = "img/cf.jpg"
 
 [Params]
-  subtitle = "心之所向，素履以往..." # Subtitle of your site
-  description = "CF's Personal blog about everything" # Description of your site
-  opengraph = true
+  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "CF's Personal blog about everything" # Site description. Used in meta description
+  copyright = "CF" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
   twitter_cards = false
   readmore = false # Show "Read more" button in list if true
   authorbox = false
+  toc = false # Enable Table of Contents
   pager = true # 翻页键
-  post_meta = ["date", "categories"] # Order of post meta information
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  highlightColor = "#e22d30" # Override highlight color
+  #customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.logo]
+  image = "img/hugo-logo-wide.svg" # Logo image. Path relative to "static". image should be SVG
+  title = "CF 的博客" # Logo title, otherwise will use site title
+  subtitle = "心之所向，素履以往..." # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages
-  single = "right" # Configure layout for single pages
+  single = true # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist"]
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
