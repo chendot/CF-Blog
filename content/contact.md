@@ -9,4 +9,6 @@ pager: false
 
 ## 感情自有其理，理性难以知晓。
 
-**欢迎访问CF技术文库** [LibBar](http://4188mh.coding-pages.com/)
+您现在闯入的是CF的个人博客，来者皆是客，无花无酒欢迎吐槽。
+
+**CF的技术文库看这里** [LibBar](http://4188mh.coding-pages.com/)

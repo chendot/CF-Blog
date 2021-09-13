@@ -1,20 +1,7 @@
-selector1{
-    margin:10px 20px 30px 40px;
-}
-   
-selector2{ 
-  margin:10px 20px;
-}
-   
-selector3{ 
-  margin:10px;
-}
-   
-selector4{ 
-  margin-top:10px; 
-  margin-right:20px; 
-  margin-bottom:30px; 
-  margin-left:40px;
+#header {
+  font-size: 14px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
 }
 
 #text a:hover{
@@ -27,6 +14,47 @@ li a:hover {
     display:block;
 }
 
-.list::after{ content:"hello";
+.button {
+  padding: 6px 16px;
+border: 1px solid #446d88;
+background: #58a linear-gradient(#77a0bb, #58a);
+border-radius: 4px;
+box-shadow: 0 1px 5px gray;
+color: white;
+text-shadow: 0 -1px 1px #335166;
+font-size: 20px;
+line-height: 1.5;
 }
 
+button.cancel {
+  background-color: #c00; 
+}
+button.ok {
+  background-color: #6b0; 
+}
+
+.div1 {
+  background-color: #335166;
+}
+
+.div2 {
+  background-color: #58a;
+  height:100px;
+  top:50px;
+  left:50px;
+  position: absolute;
+}
+
+.div3 {
+  background-color: #6b0;
+}
+
+.div4 {
+  background-color: #ddd;
+}
+
+.container1 {
+  position:absolute;
+  height:200px;
+  background-color: greenyellow;
+}

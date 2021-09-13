@@ -33,8 +33,9 @@
 	{{- end }}
 </head>
 <body class="body">
+	{{ partial "header" . }}
 	<div class="container container--outer">
-		{{ partial "header" . }}
+		
 		<div class="wrapper flex">
 			<div class="primary">
 			{{ block "main" . }}

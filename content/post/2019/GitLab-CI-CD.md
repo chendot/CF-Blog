@@ -8,6 +8,10 @@ categories:
 tags: ["SCM","DevOps"]
 ---
 
+本地开发（developing）--》静态代码走查（linting）--》单元测试（testing）--》合并到主干（merging）--》自动构建（building）--》自动发布（publishing）
+
+![cicd](/img/cicd.png)
+
 ## 相关概念 
 
 - **管道（pipeline）**  

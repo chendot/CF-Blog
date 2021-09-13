@@ -1,6 +1,6 @@
 ---
 date: 2018-11-12
-title: 内心的画家情节
+title: 画家情节
 categories: [随笔,绘画]
 sidebar: false
 tags: [画]

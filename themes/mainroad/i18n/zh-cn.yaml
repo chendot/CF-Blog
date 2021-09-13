@@ -63,8 +63,9 @@
 
 # Footer
 - id: footer_credits
-  translation: "基于 <a href=\"https://gohugo.io/\" rel=\"nofollow noopener\" target=\"_blank\">Hugo</a> 引擎和 \
-  <a href=\"https://github.com/Vimux/Mainroad/\" rel=\"nofollow noopener\" target=\"_blank\">Mainroad</a>主題"
+#  translation: "基于 <a href=\"https://gohugo.io/\" rel=\"nofollow noopener\" target=\"_blank\">Hugo</a> 引擎和 \
+#  <a href=\"https://github.com/Vimux/Mainroad/\" rel=\"nofollow noopener\" target=\"_blank\">Mainroad</a>主題"
+  translation: " <a href=\"http://www.beian.miit.gov.cn\">沪ICP备20014789号-1 </a> "
 
 # 404
 - id: 404_title
