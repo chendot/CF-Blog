@@ -1,6 +1,6 @@
 name: github pages
 
-on:
+on: # 触发条件
   push:
     branches:
       - main  # Set a branch to deploy

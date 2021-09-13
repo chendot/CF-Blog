@@ -1,5 +1,5 @@
 baseurl = "/"
-#title = "CF 的博客"
+#title = "CF 无聊的博客"
 #languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 paginate = "10" # Number of posts per page
@@ -34,7 +34,7 @@ theme = "mainroad"
 
 [Params.logo]
   image = "img/hugo-logo-wide.svg" # Logo image. Path relative to "static". image should be SVG
-  title = "CF 的博客" # Logo title, otherwise will use site title
+  title = "CF 无聊的博客" # Logo title, otherwise will use site title
   subtitle = "心之所向，素履以往..." # Logo subtitle
 
 [Params.sidebar]
