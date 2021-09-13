@@ -5,4 +5,5 @@
 
 [Pages](https://chendot.github.io/home/) | [知乎](https://www.zhihu.com/people/chendot)｜[豆瓣](https://www.douban.com/people/chendot/)
 
+> Build by [Hugo](https://gohugo.io)  
 > CI配置参考：[GitHub Pages 自动发布](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
